@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="t d">
+  <title id="t">Marj akışı: önceki marj, iki etki, hesap marjı</title>
+  <desc id="d">Projeksiyon hesabının sırası: şirketin bir önceki çeyrekteki brüt marjına emtia girdi etkisi ve emtia çıktı etkisi eklenir, sonuç hesap marjıdır. Şema değer taşımaz.</desc>
+  <style>
+    text{font-family:"Martian Mono",ui-monospace,"SF Mono",Menlo,Consolas,monospace;fill:#e8e6e3}
+    .bas{font-size:17px;font-weight:700}
+    .alt{font-size:13px;fill:#8a8a93}
+    .etk{font-size:12px;fill:#8a8a93;letter-spacing:.08em}
+    .op{font-size:24px;font-weight:700;fill:#8a8a93}
+    .kutu{fill:#131316;stroke:#3a3a42;stroke-width:1.5}
+    .girdi{fill:#131316;stroke:#ff9e18;stroke-width:1.5}
+    .cikti{fill:#131316;stroke:#4a7fb5;stroke-width:1.5}
+    .sonuc{fill:#1a1a1f;stroke:#8a8a93;stroke-width:1.5}
+  </style>
+  <rect width="1200" height="360" fill="#0d0d0f"/>
+
+  <text x="40" y="44" class="etk">MARJ AKIŞI · ŞEMA, DEĞER TAŞIMAZ</text>
+
+  <!-- 1. önceki marj -->
+  <rect x="40" y="64" width="255" height="160" rx="6" class="kutu"/>
+  <text x="62" y="100" class="bas">Önceki marj</text>
+  <text x="62" y="128" class="alt">şirketin bir önceki</text>
+  <text x="62" y="150" class="alt">çeyrekteki brüt marjı</text>
+
+  <text x="311.5" y="152" class="op" text-anchor="middle">+</text>
+
+  <!-- 2. girdi etkisi -->
+  <rect x="328" y="64" width="255" height="160" rx="6" class="girdi"/>
+  <text x="350" y="100" class="bas">Emtia girdi</text>
+  <text x="350" y="128" class="alt">girdi sepetinin</text>
+  <text x="350" y="150" class="alt">90 günlük hareketi,</text>
+  <text x="350" y="172" class="alt">stok devir süresi</text>
+  <text x="350" y="194" class="alt">kadar geriden</text>
+
+  <text x="599.5" y="152" class="op" text-anchor="middle">+</text>
+
+  <!-- 3. çıktı etkisi -->
+  <rect x="616" y="64" width="255" height="160" rx="6" class="cikti"/>
+  <text x="638" y="100" class="bas">Emtia çıktı</text>
+  <text x="638" y="128" class="alt">fiyat–maliyet</text>
+  <text x="638" y="150" class="alt">farkının hareketi</text>
+
+  <text x="887.5" y="152" class="op" text-anchor="middle">=</text>
+
+  <!-- 4. hesap marjı -->
+  <rect x="904" y="64" width="256" height="160" rx="6" class="sonuc"/>
+  <text x="926" y="100" class="bas">Hesap marjı</text>
+  <text x="926" y="128" class="alt">önceki marj ile</text>
+  <text x="926" y="150" class="alt">iki etkinin toplamı</text>
+
+  <!-- not -->
+  <text x="40" y="276" class="alt">Bu bir hesaptır; yön iddiası taşımaz. Makro (kur, enflasyon) ve operasyonel</text>
+  <text x="40" y="298" class="alt">(hacim, kapasite, hedge) etkiler bu hesaba girmez.</text>
+</svg>
