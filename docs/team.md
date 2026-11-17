@@ -2,7 +2,7 @@
 
 [Türkçe](ekip.md)
 
-Vantage Castle is a product of HBK Software. HBK Software is a team made up of AI agents: each agent works in a separate session with a single role. The owner of the company is a human, and the final word is theirs. This page describes how the team works, and what it does and does not do.
+Vantage Castle is a product of HBK Software. HBK Software is a team made up of AI agents: each agent works in a separate session with a single role. The owner of the company is a human, and the final word is theirs. This section describes how the team works, and what it does and does not do.
 
 ## Roles
 
@@ -22,12 +22,12 @@ The team has nine roles:
 
 ## How work runs
 
-1. **Every task starts with a plan.** The plan is short: what will be done, which files will be touched, how it will be verified, how long it will take, what the risk is. For large tasks the plan goes to the human for approval.
+1. **Every task starts with a plan.** The plan is short: what will be done, which files will be touched, how it will be verified, how long it will take, what the risk is. Whether a plan goes to the human for approval is set by the human: every plan, only large tasks, or none.
 2. **Whoever produces does not approve their own work.** First a machine checks: tests, a secrets scan and protection checks run. Then an auditor in a separate session, without seeing the producer's conversation, looks at the delivery as actually applied: does it work and look right with a copy of the real data? Without a look at the applied result there is no acceptance.
 3. **If rejected, the producer fixes.** The private secretary runs at most two correction rounds without asking the human; at the third, the decision is the human's.
 4. **There is a third pair of eyes.** The Security role watches for any step outside authority and reports it to the human if found.
 5. **Everything that goes outside is with the human.** Publishing, deployment, e-mail, payment and sending data to third parties are closed to the agents; work stays in a local draft and local record.
-6. **Rules belong to the human.** Agents propose rule changes or write drafts; what takes effect is the human's signature.
+6. **Rules belong to the human.** Agents write the drafts of rule changes; what takes effect is the human's signature.
 
 ## Memory and record
 
@@ -40,5 +40,5 @@ No number is written without a source: the source or measurement stands next to 
 ## Limits
 
 - Agents can be wrong. The aim of the working order is not to abolish error but to have a wrong result looked at by a separate pair of eyes; the audit, too, is limited, like any measurement.
-- This page is a short summary of the working order; the full text of the internal rules is not in this repository.
-- None of the product's numbers is an agent's "view"; they come from the measurement record and the source series ([method](method.md), [findings](findings.md)).
+- This section is a short summary of the working order; the full text of the internal rules is not in this repository.
+- None of the product's numbers is an agent's "view"; they come from the measurement record and the source series ([Method](method.md), [Honest findings](findings.md)).

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="804" viewBox="0 0 1200 804" role="img" aria-labelledby="t d">
+  <title id="t">Vantage Castle architecture</title>
+  <desc id="d">Data sources pass unit, date and licence checks and are written to the measurement database. The Commodity Margin Engine calculates the margin from the measurement layer with two methods; both methods' results and band (low – high) are recorded with the gap to the realised margin. Macro and Operational are not yet calculated. A per-sector selection rule, the interval and the fallback rule are planned from the fourth quarter of 2026 and are not yet on screen. The presentation layer reads only from the measurement layer and the engine record; the menu holds My board, Changes, Companies, Projection, Sectors, Commodities, Map, KAP, Data and Settings, and Screening opens from the general search box. Development is done by a human-approved team of AI agents.</desc>
+  <defs>
+    <marker id="ok" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#8a8a93"/>
+    </marker>
+  </defs>
+  <style>
+    text{font-family:"Martian Mono",ui-monospace,"SF Mono",Menlo,Consolas,monospace;fill:#e8e6e3}
+    .bas{font-size:17px;font-weight:700}
+    .alt{font-size:13px;fill:#8a8a93}
+    .etk{font-size:12px;fill:#8a8a93;letter-spacing:.08em}
+    .ad{font-size:13px;fill:#e8e6e3}
+    .plan{font-size:12px;fill:#e8e6e3;letter-spacing:.08em}
+    .kutu{fill:#131316;stroke:#3a3a42;stroke-width:1.5}
+    .vurgu{fill:#131316;stroke:#ff9e18;stroke-width:1.5}
+    .ekip{fill:none;stroke:#3a3a42;stroke-width:1.5;stroke-dasharray:6 6}
+    .cizgi{stroke:#8a8a93;stroke-width:1.5;fill:none}
+    .ayrac{stroke:#3a3a42;stroke-width:1}
+  </style>
+  <rect width="1200" height="804" fill="#0d0d0f"/>
+
+  <text x="40" y="44" class="etk">DATA FLOW</text>
+
+  <!-- 1. sources -->
+  <rect x="40" y="64" width="330" height="128" rx="6" class="kutu"/>
+  <text x="62" y="100" class="bas">Data sources</text>
+  <text x="62" y="128" class="alt">official commodity and FX</text>
+  <text x="62" y="150" class="alt">series, interest rates and</text>
+  <text x="62" y="172" class="alt">inflation, company financials</text>
+
+  <!-- 2. records and checks -->
+  <rect x="435" y="64" width="330" height="128" rx="6" class="kutu"/>
+  <text x="457" y="100" class="bas">Records and checks</text>
+  <text x="457" y="128" class="alt">unit and date checks,</text>
+  <text x="457" y="150" class="alt">source and licence per row,</text>
+  <text x="457" y="172" class="alt">one measurement database</text>
+
+  <!-- 3. measurement -->
+  <rect x="830" y="64" width="330" height="128" rx="6" class="kutu"/>
+  <text x="852" y="100" class="bas">Measurement layer</text>
+  <text x="852" y="128" class="alt">input and output indices,</text>
+  <text x="852" y="150" class="alt">price–cost gap,</text>
+  <text x="852" y="172" class="alt">realised gross margin</text>
+
+  <line x1="370" y1="128" x2="433" y2="128" class="cizgi" marker-end="url(#ok)"/>
+  <line x1="765" y1="128" x2="828" y2="128" class="cizgi" marker-end="url(#ok)"/>
+  <line x1="995" y1="192" x2="995" y2="246" class="cizgi" marker-end="url(#ok)"/>
+
+  <!-- 4. engine (single accent); selection rule, interval and fallback rule on the planned row -->
+  <rect x="40" y="248" width="1120" height="198" rx="6" class="vurgu"/>
+  <text x="62" y="284" class="bas">Commodity Margin Engine</text>
+  <text x="350" y="284" class="alt">(Projection)</text>
+  <text x="62" y="316" class="ad">From commodity prices</text>
+  <text x="62" y="338" class="alt">input basket and output price</text>
+  <text x="600" y="316" class="ad">From company financials</text>
+  <text x="600" y="338" class="alt">cost item shares and inventory period</text>
+  <line x1="62" y1="358" x2="1138" y2="358" class="ayrac"/>
+  <text x="62" y="384" class="alt">both methods' results and band (low – high) are recorded with the gap to the realised margin</text>
+  <text x="62" y="406" class="alt">Macro and Operational: not yet calculated</text>
+  <text x="62" y="428" class="alt"><tspan class="plan">PLANNED (2026 Q4)</tspan>  not yet on screen: per-sector selection rule, interval and fallback rule</text>
+
+  <line x1="600" y1="446" x2="600" y2="500" class="cizgi" marker-end="url(#ok)"/>
+
+  <!-- 5. presentation: Settings and Screening -->
+  <rect x="40" y="502" width="1120" height="126" rx="6" class="kutu"/>
+  <text x="62" y="538" class="bas">Presentation</text>
+  <text x="62" y="566" class="alt">My board · Changes · Companies · Projection · Sectors · Commodities · Map · KAP · Data · Settings</text>
+  <text x="62" y="588" class="alt">Screening: not in the menu, opened from the general search box</text>
+  <text x="62" y="610" class="alt">reads only from the measurement layer and the engine record; sources and licences on Data › Sources</text>
+
+  <!-- 6. team -->
+  <text x="40" y="670" class="etk">DEVELOPMENT</text>
+  <rect x="40" y="686" width="1120" height="104" rx="6" class="ekip"/>
+  <text x="62" y="722" class="bas">AI agent team, human has the final say</text>
+  <text x="62" y="750" class="alt">plan → build → independent review → local commit</text>
+  <text x="62" y="772" class="alt">every job starts with a plan; the maker does not approve its own work; every outward step is human</text>
+</svg>

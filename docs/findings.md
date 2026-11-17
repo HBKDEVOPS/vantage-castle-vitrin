@@ -2,46 +2,33 @@
 
 [Türkçe](bulgular.md)
 
-The most important design decision in Vantage Castle is what it does not say. The measurements below tested whether a margin or a share-price-series change can be derived from commodity prices; none found a meaningful relationship. The product therefore expresses no view; it puts what it measures side by side.
+Vantage Castle's most important design decision is what it does not say. The measurements below tried to find out whether margin or a change in share price series can be derived from commodity prices; none found a significant relationship. The product therefore expresses no view; it shows what it measures side by side.
 
-The measurements that use share prices are an internal study made on recorded series. "No relationship" here means "not found with this data and this method"; it is not proof that no relationship exists.
+The measurements that use share prices are internal work done on commodity, margin and share price series. "No relationship" here means "could not be found with this data and this method"; it is not proof that no relationship exists.
 
 ## Paths tried and dropped (six measurements)
 
-The "Data" column shows which kind of recorded series each measurement rests on. These are the product's own internal measurements; their detailed records are not part of this repository.
+The "Data" column shows what kind of data the measurement rests on. These are the product's own internal measurements; their detailed records and numbers are not in this repository.
 
 | # | Measurement | Result | Data |
 |---|---|---|---|
-| 1 | Regression pipeline: per company and in a single model, margin and share-price-series change from commodity change | No meaningful power; out-of-sample (after 2023) explanatory power negative, i.e. worse than a plain average | Commodity, margin and share price series |
-| 2 | Does the direction of the price–cost gap agree with the direction of realised gross margin in the same period? | **49.0%** (n=1492, 2015–2022); indistinguishable from a coin toss; no lag or alignment correction passed the 55% threshold | Price–cost gap and KAP margin, 2015–2022 |
-| 3 | Sector-neutral reverse-ordered two-group difference: the difference in share-price-series change between a group of the companies where the gap measure is most favourable and a reverse-ordered group of those where it is least favourable | Difference t = **0.613**, p = **0.543**; indistinguishable from noise | Price–cost gap and share price series |
-| 4 | Pricing-in measurement: when the gap changed markedly, how did the share price series separate from its sector peers? | No relationship found | Price–cost gap and share price series |
-| 5 | Inventory turnover: does the turnover period move together with commodity prices? | No relationship found; the fixed-turnover assumption is therefore kept | Commodity prices and KAP financial reports |
-| 6 | KAP event study: after a disclosure, does the share price series separate from its sector more than usual? | Looks only at the size of the separation, not its direction | KAP disclosures and share price series |
+| 1 | Regression pipeline: from the commodity change to the change in margin and in the share price series, company by company and in a single model | No significant power; explanatory power in the out-of-sample period is negative, that is, worse than a simple average | Commodity, margin and share price series |
+| 2 | Does the direction of the price–cost gap match the direction of the realised gross margin in the same period? | The agreement could not be distinguished from a coin toss; no lag or alignment correction passed the threshold | Price–cost gap and KAP margin, past years |
+| 3 | Sector-neutral reverse-ordered two-group difference: the difference in the change of the share price series between a group made of the companies with the most favourable gap measure and a reverse-ordered group made of those with the least favourable | The difference could not be distinguished from noise | Price–cost gap and share price series |
+| 4 | Pricing-in measurement: when the gap changed markedly, how did the share price series separate from sector peers? | No relationship found | Price–cost gap and share price series |
+| 5 | Inventory turnover: does the inventory turnover period change together with commodity prices? | No relationship found; the constant inventory turnover assumption is therefore kept | Commodity price and KAP financial reports |
+| 6 | KAP event study: after a filing, does the share price series separate from its sector more than normal? | Looks only at the size of the separation, not its direction | KAP filings and share price series |
 
-Two more paths were dropped: the "episode table" that matched periods of large gap changes with the following margin was removed (it would have presented an unproven relationship as proven), and an attempt to convert financial statements to a common base using consumer prices failed and was not applied to the tables.
+Two further paths were dropped: the "episode table", which matched periods of large change in the price–cost gap with the following margin, was removed (it would have shown an unproven relationship as proven), and the attempt to convert financial statements to a common base with consumer prices failed and was not applied to the tables.
 
-## News direction label measurement (not shown on any product page)
+## News direction label measurement (not on the product's pages)
 
-News items were given a direction label, and it was checked whether the price series then changed in the same direction; the plan was written and frozen before labelling started. Result: the label direction and the following price-series direction agreed 51.2%, 50.3% and 51.5% of the time over 1, 5 and 20 trading days (a coin toss gives 50%); against a significance threshold of p < 0.0045 the p-values were 0.449, 0.873 and 0.366 (n = 1,029, 1,034 and 1,038 independent clusters). None is significant. [Measurement: 10.10.2026; news labels and share price series]
+News items were given a direction label and it was checked whether the price series then moved in the same direction; the plan was written and frozen before labelling began. Result: the agreement between the label direction and the following price series direction could not be distinguished from a coin toss at any of the three horizons (short, medium and long trading-day horizons); none of the three passed the significance threshold written in advance. Agreement between the labellers was moderate, so the result was recorded as "weak evidence of absence", not "no relationship for certain". This measurement does not enter the product; the labels are not shown on any screen. [Measurement: the team's internal measurement, 10.10.2026; news labels and share price series]
 
-Two limits are stated openly: with this data an effect above about 55.8% could be excluded, and a smaller effect cannot be told apart; agreement between the two labellers was moderate (κ 0.570–0.657), so the result was recorded as "weak evidence of absence", not "no relationship for certain". No look-ahead violation was found (0). This measurement does not enter the product; the labels are shown on no screen.
+## Forward-record measurement (not a referee)
 
-## First forward-record measurement: 2026 Q3 (not a referee)
-
-Calculations are made and recorded before the financial statement is published, and the realised KAP value is added beside them when it arrives. For the third quarter of 2026, 50 companies were examined. Q3 is not a referee: no method choice or pass/fail verdict is drawn from these tables.
-
-Two short names appear in the table; both are defined on the [method](method.md) page. Alfa is the selection rule that chooses, per sector, which of two methods' main figure is shown, with a rule written in advance. FM-1 is the calculation of the change in gross margin from a company's own financials, with a main figure and two scenario arms, a low and a high one.
-
-| Measurement | Result | Data |
-|---|---|---|
-| Mean absolute error of the main figure of the method Alfa chose, against realised margin (40 companies that have a figure) | **5.855 points**; under the assumption "margin stays as in the previous quarter", 7.140 points; medians 3.836 ↔ 3.830; Alfa closer in 20 companies, the simple assumption closer in 20 | 2026 Q3: the product's recorded calculations ↔ realised margins reported on KAP; 15.11.2026 |
-| Same measurement in FM-1 sectors (35 companies) | 5.295 ↔ 7.057 points (Alfa closer in 19, simple closer in 16) | Same data |
-| Same measurement in old-engine sectors (only 5 companies have a figure) | 9.776 ↔ 7.724 points (Alfa closer in 1, simple closer in 4) | Same data |
-| Share of realised values falling between FM-1's low and high scenario arms | 19 / 49 (0.388); arms in order 11 / 29, arms in reverse order 8 / 20 (for reverse-ordered arms the interval was taken between the smaller and the larger value) | Same data |
-
-Reading notes: (1) A few extreme values pull the mean up; the medians are almost identical. (2) Alfa's selection rule looks at direction agreement, not at mean absolute error; the error here is an additional descriptive measure. (3) In 10 companies the old engine has no figure, so Alfa has no output; coverage is 40/50. (4) In the old-engine arm the simple assumption is closer in 4 of 5 companies; this says nothing about so small a sample. (5) If KAP's three-month Q2 column is used instead of the Q2 value in the database, the simple assumption's error is 7.159 (sensitivity row). (6) One quarter; a common shock may have moved the companies in the same direction.
+Calculations are made and recorded before the financial statement is published; when the realised value arrives, it is added beside them. The first forward-record measurement was made for the third quarter of 2026. This measurement is not a referee: no method choice or pass/fail verdict is drawn from it. Its numbers are not in this repository; the product's screens show the record and the realised value side by side ([Commodity Margin Engine](method.md#commodity-margin-engine)).
 
 ## How these findings shaped the product
 
-The product gives no share price or investment direction and no trading advice, and it makes no statement about condition or direction such as "the gap narrowed, margin pressure exists"; it puts the input index, the output index, the price–cost gap and the realised gross margin side by side without implying causation. It shows, as a record, the margin calculated from input cost, the interval, and its difference from the realised margin; this is a calculation, not a referee and not advice. This is not a stylistic preference; it is the result of the measurements above. The system puts what it measures side by side and leaves the interpretation to the reader.
+The product reports no share price or investment direction, gives no trade instructions, and makes no claim about a state or a direction such as "the gap has narrowed, there is margin pressure"; it puts the input index, the output index, the price–cost gap and the realised gross margin side by side without implying causality. It shows, as a record, the margin calculated from input cost, the band and its difference from the realised margin; this is a calculation, not a referee and not investment advice. This is not a stylistic preference but the result of the measurements above. The system shows what it measures side by side and leaves the interpretation to the reader.

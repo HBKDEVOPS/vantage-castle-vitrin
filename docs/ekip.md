@@ -2,7 +2,7 @@
 
 [English](team.md)
 
-Vantage Castle, HBK Software'in ürünüdür. HBK Software, yapay zekâ ajanlarından kurulu bir ekiptir: her ajan ayrı bir oturumda, tek bir rolle çalışır. Şirketin sahibi bir insandır ve son söz onundadır. Bu sayfa ekibin nasıl çalıştığını, neyi yapıp neyi yapamadığını anlatır.
+Vantage Castle, HBK Software'in ürünüdür. HBK Software, yapay zekâ ajanlarından kurulu bir ekiptir: her ajan ayrı bir oturumda, tek bir rolle çalışır. Şirketin sahibi bir insandır ve son söz onundadır. Bu bölüm ekibin nasıl çalıştığını, neyi yapıp neyi yapamadığını anlatır.
 
 ## Roller
 
@@ -22,12 +22,12 @@ Ekipte dokuz rol vardır:
 
 ## İş nasıl yürür
 
-1. **Her iş bir planla başlar.** Plan kısadır: ne yapılacak, hangi dosyalara dokunulacak, nasıl doğrulanacak, ne kadar sürecek, risk nedir. Büyük işlerde plan insanın onayına gider.
+1. **Her iş bir planla başlar.** Plan kısadır: ne yapılacak, hangi dosyalara dokunulacak, nasıl doğrulanacak, ne kadar sürecek, risk nedir. Planın insana onaya gidip gitmeyeceğini insan ayarlar: her plan, yalnız büyük işler ya da hiçbiri.
 2. **Üreten kendi işini onaylamaz.** Önce makine denetler: testler, sır taraması ve koruma kontrolleri çalışır. Sonra ayrı bir oturumdaki denetçi, üretenin konuşmasını görmeden, teslimin uygulanmış hâline bakar: gerçek verinin kopyasıyla doğru çalışıyor ve doğru görünüyor mu? Uygulanmış sonuca bakılamadıysa kabul yoktur.
 3. **Red gelirse üreten düzeltir.** Özel kalem en fazla iki düzeltme turunu insana sormadan yürütür; üçüncüsünde karar insanındır.
 4. **Üçüncü bir göz vardır.** Güvenlik rolü, yetki dışına çıkış olup olmadığını izler ve bulursa insana bildirir.
 5. **Dışarı giden her şey insandadır.** Yayın, dağıtım, e-posta, ödeme ve üçüncü tarafa veri gönderme ajanlara kapalıdır; iş yerel taslakta ve yerel kayıtta durur.
-6. **Kural insanındır.** Kural değişikliğini ajanlar önerir ya da taslağını yazar; yürürlüğe giren, insanın imzasıdır.
+6. **Kural insanındır.** Kural değişikliğinin taslağını ajanlar yazar; yürürlüğe giren, insanın imzasıdır.
 
 ## Hafıza ve kayıt
 
@@ -40,5 +40,5 @@ Kaynaksız sayı yazılmaz: her sayının kaynağı ya da ölçümü yanında du
 ## Sınırlar
 
 - Ajanlar yanılabilir. Çalışma düzeninin amacı yanılmayı yok etmek değil, yanlışın ayrı bir gözden geçmesini sağlamaktır; denetim de bir ölçüm gibi sınırlıdır.
-- Bu sayfa çalışma düzeninin kısa bir özetidir; iç kuralların tam metni depoda yoktur.
-- Ürünün hiçbir sayısı ajan "görüşü" değildir; ölçüm kaydından ve kaynak serilerden gelir ([yöntem](yontem.md), [bulgular](bulgular.md)).
+- Bu bölüm çalışma düzeninin kısa bir özetidir; iç kuralların tam metni depoda yoktur.
+- Ürünün hiçbir sayısı ajan "görüşü" değildir; ölçüm kaydından ve kaynak serilerden gelir ([Yöntem](yontem.md), [Dürüst bulgular](bulgular.md)).
