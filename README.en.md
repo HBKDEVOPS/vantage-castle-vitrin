@@ -32,7 +32,7 @@ This repository is a showcase: it contains no code and no data. The page images 
 ## Contents
 
 - [What it does](#vantage-castle)
-- [Screens](#screens): [My board](#my-board-panom) · [Changes](#changes-değişimler) · [Bulletin](#bulletin-bülten) · [Companies](#companies-şirketler) · [Projection](#projection-projeksiyon) · [Sectors](#sectors-sektörler) · [Matching matrix](#matching-matrix-eşleşme-matrisi) · [Commodities](#commodities-emtia) · [Tracked commodities](#tracked-commodities) · [Commodity Network](#commodity-network) · [Map](#map-harita) · [Supply Chain](#supply-chain) · [KAP](#kap) · [Sources](#sources-kaynaklar) · [Data quality](#data-quality-veri-kalitesi) · [Terms](#terms-terimler) · [Settings](#settings-ayarlar) · [Screening](#screening-tarama) · [Home page](#home-page-ana-sayfa) · [Sign in](#sign-in-giriş) · [Sign up](#sign-up-kaydol) · [About us](#about-us-hakkımızda)
+- [Screens](#screens): [My board](#my-board-panom) · [Changes](#changes-değişimler) · [Bulletin](#bulletin-bülten) · [Companies](#companies-şirketler) · [Projection](#projection-projeksiyon) · [Sectors](#sectors-sektörler) · [Matching matrix](#matching-matrix-eşleşme-matrisi) · [Commodities](#commodities-emtia) · [Tracked commodities](#tracked-commodities) · [Also monitored commodities](#also-monitored-commodities) · [Commodity Network](#commodity-network) · [Map](#map-harita) · [Supply Chain](#supply-chain) · [KAP](#kap) · [Sources](#sources-kaynaklar) · [Data quality](#data-quality-veri-kalitesi) · [Terms](#terms-terimler) · [Settings](#settings-ayarlar) · [Screening](#screening-tarama) · [Home page](#home-page-ana-sayfa) · [Sign in](#sign-in-giriş) · [Sign up](#sign-up-kaydol) · [About us](#about-us-hakkımızda)
 - [Commodity Margin Engine](#commodity-margin-engine)
 - [Method](#method)
 - [Honest findings](#honest-findings)
@@ -133,7 +133,7 @@ Commodity prices, with the selected series' chart, its source and unit. The page
 
 ### Tracked commodities
 
-This list, taken from the commodity list of the Commodities page above, contains the **29 commodities** whose source is shown in the [Licence and attributions](#licence-and-attributions) section of this document: energy 7, metals 5, agriculture 5, chemicals and fertilizer 7, other raw materials 5. The table gives each commodity's Turkish and English name, group and source. The group is an editorial classification and is not used in any calculation. [Source: the product's commodity list, 2026-11-17; the number is the count of rows in the table]
+The list of the Commodities page above contains **82 commodities**; the list is split below into two tables. The first table contains the **29 commodities** whose source is shown in the [Licence and attributions](#licence-and-attributions) section of this document: energy 7, metals 5, agriculture 5, chemicals and fertilizer 7, other raw materials 5; it gives each commodity's Turkish and English name, group and source. The second table ([Also monitored commodities](#also-monitored-commodities)) contains the remaining **53 commodities**: energy 13, metals 16, agriculture 14, chemicals and fertilizer 7, other raw materials 3. The group is an editorial classification and is not used in any calculation. [Source: the product's commodity list, 2026-11-17; the numbers are the counts of rows in the two tables, 29 + 53 = 82]
 
 | Commodity (English) | Emtia (Turkish) | Group | Source |
 |---|---|---|---|
@@ -168,6 +168,66 @@ This list, taken from the commodity list of the Commodities page above, contains
 | Wool (fine) | Yün (Fine) | Other raw materials | FRED, Federal Reserve Bank of St. Louis (IMF series) |
 
 The Source column uses the attribution names in the [Licence and attributions](#licence-and-attributions) section. [Source: the product's commodity list, 2026-11-17]
+
+### Also monitored commodities
+
+The licence for the price data of these commodities is under review; prices are not shown in this repository.
+
+| Commodity (English) | Emtia (Turkish) | Group |
+|---|---|---|
+| Gasoline · New York Harbor | Benzin · New York Limanı | Energy |
+| Brent crude oil · Global (Brent) | Brent ham petrol · Küresel (Brent) | Energy |
+| Natural gas · U.S. (Henry Hub) | Doğalgaz · ABD (Henry Hub) | Energy |
+| Natural gas · Europe (TTF) | Doğalgaz · Avrupa (TTF) | Energy |
+| Electricity (Türkiye day-ahead price / PTF) | Elektrik (Türkiye PTF) | Energy |
+| Crude oil · China | Ham petrol · Çin | Energy |
+| Crude oil · Middle East (Dubai) | Ham petrol · Orta Doğu (Dubai) | Energy |
+| Coke · China | Kok · Çin | Energy |
+| Coking coal · China | Kok kömürü · Çin | Energy |
+| Coal · South Africa (Richards Bay) | Kömür · Güney Afrika (Richards Bay) | Energy |
+| LNG · Japan (import / CIF) | LNG · Japonya (ithalat / CIF) | Energy |
+| Diesel · New York Harbor | Motorin · New York Limanı | Energy |
+| WTI crude oil · U.S. (WTI) | WTI ham petrol · ABD (WTI) | Energy |
+| Gold · International | Altın · Uluslararası | Metals |
+| Alumina · China | Alümina · Çin | Metals |
+| Aluminium · China | Alüminyum · Çin | Metals |
+| Aluminium · International | Alüminyum · Uluslararası | Metals |
+| Copper · U.S. | Bakır · ABD | Metals |
+| Copper · China | Bakır · Çin | Metals |
+| Zinc · China | Çinko · Çin | Metals |
+| Iron ore · China | Demir cevheri · Çin | Metals |
+| Iron ore · International | Demir cevheri · Uluslararası | Metals |
+| Ferrosilicon · China | Ferrosilikon · Çin | Metals |
+| Silver · International | Gümüş · Uluslararası | Metals |
+| Nickel · China | Nikel · Çin | Metals |
+| Palladium · China | Paladyum · Çin | Metals |
+| Platinum · International | Platin · Uluslararası | Metals |
+| Silicomanganese · China | Silikomangan · Çin | Metals |
+| Cold-rolled steel (U.S. PPI) | Soğuk haddelenmiş çelik (ABD ÜFE) | Metals |
+| Sunflower oil · EU (FOB Rotterdam) | Ayçiçek yağı · AB (FOB Rotterdam) | Agriculture |
+| Wheat · U.S. (HRW) | Buğday · ABD (HRW) | Agriculture |
+| Wheat · U.S. (SRW) | Buğday · ABD (SRW) | Agriculture |
+| Wheat · Türkiye | Buğday · Türkiye | Agriculture |
+| Coffee (Arabica) · International | Kahve (Arabica) · Uluslararası | Agriculture |
+| Cocoa | Kakao | Agriculture |
+| Beef carcass | Karkas et (dana) | Agriculture |
+| Corn · U.S. | Mısır · ABD | Agriculture |
+| Corn starch · China | Mısır nişastası · Çin | Agriculture |
+| Soybeans · U.S. | Soya · ABD | Agriculture |
+| Soybean meal · China | Soya küspesi · Çin | Agriculture |
+| Soybean meal · International | Soya küspesi · Uluslararası | Agriculture |
+| Soybean oil · China | Soya yağı · Çin | Agriculture |
+| Sugar | Şeker | Agriculture |
+| Ethylene glycol (MEG) · China | MEG · Çin | Chemicals and fertilizer |
+| Methanol · China | Metanol · Çin | Chemicals and fertilizer |
+| Paraxylene · China | Paraksilen · Çin | Chemicals and fertilizer |
+| Polyethylene · China | Polietilen · Çin | Chemicals and fertilizer |
+| Polypropylene · China | Polipropilen · Çin | Chemicals and fertilizer |
+| PTA (purified terephthalic acid) · China | PTA · Çin | Chemicals and fertilizer |
+| Soda ash · China | Soda külü · Çin | Chemicals and fertilizer |
+| Sawnwood · Malaysia (seraya / meranti) | Kereste · Malezya (seraya / meranti) | Other raw materials |
+| Plywood · Tokyo spot | Kontrplak · Tokyo spot | Other raw materials |
+| Cotton · International | Pamuk · Uluslararası | Other raw materials |
 
 ### Commodity Network
 

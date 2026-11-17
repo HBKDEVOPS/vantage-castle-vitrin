@@ -32,7 +32,7 @@ Bu depo bir vitrindir: kod ve veri içermez. Sayfa görüntüleri ürünün mask
 ## İçindekiler
 
 - [Ne yapar](#vantage-castle)
-- [Ekranlar](#ekranlar): [Panom](#panom) · [Değişimler](#değişimler) · [Bülten](#bülten) · [Şirketler](#şirketler) · [Projeksiyon](#projeksiyon) · [Sektörler](#sektörler) · [Eşleşme matrisi](#eşleşme-matrisi) · [Emtia](#emtia) · [Takip edilen emtialar](#takip-edilen-emtialar) · [Emtia Ağı](#emtia-ağı) · [Harita](#harita) · [Tedarik Zinciri](#tedarik-zinciri) · [KAP](#kap) · [Kaynak](#kaynak) · [Veri kalitesi](#veri-kalitesi) · [Terimler](#terimler) · [Ayarlar](#ayarlar) · [Tarama](#tarama) · [Ana sayfa](#ana-sayfa) · [Giriş](#giriş) · [Kaydol](#kaydol) · [Hakkımızda](#hakkımızda)
+- [Ekranlar](#ekranlar): [Panom](#panom) · [Değişimler](#değişimler) · [Bülten](#bülten) · [Şirketler](#şirketler) · [Projeksiyon](#projeksiyon) · [Sektörler](#sektörler) · [Eşleşme matrisi](#eşleşme-matrisi) · [Emtia](#emtia) · [Takip edilen emtialar](#takip-edilen-emtialar) · [Ayrıca izlenen emtialar](#ayrıca-izlenen-emtialar) · [Emtia Ağı](#emtia-ağı) · [Harita](#harita) · [Tedarik Zinciri](#tedarik-zinciri) · [KAP](#kap) · [Kaynak](#kaynak) · [Veri kalitesi](#veri-kalitesi) · [Terimler](#terimler) · [Ayarlar](#ayarlar) · [Tarama](#tarama) · [Ana sayfa](#ana-sayfa) · [Giriş](#giriş) · [Kaydol](#kaydol) · [Hakkımızda](#hakkımızda)
 - [Emtia Marj Motoru](#emtia-marj-motoru)
 - [Yöntem](#yöntem)
 - [Dürüst bulgular](#dürüst-bulgular)
@@ -133,7 +133,7 @@ Emtia fiyatları, seçili serinin grafiği, kaynağı ve birimiyle. Sayfada emti
 
 ### Takip edilen emtialar
 
-Yukarıdaki Emtia sayfasının listesinden çıkarılan bu liste, kaynağı bu belgenin [Lisans ve atıflar](#lisans-ve-atıflar) bölümünde gösterilen **29 emtiayı** içerir: enerji 7, metaller 5, tarım 5, kimya ve gübre 7, diğer hammadde 5. Tabloda her emtianın Türkçe ve İngilizce adı, grubu ve kaynağı yazar. Grup editöryel bir sınıflandırmadır, hesaba katılmaz. [Kaynak: ürünün emtia listesi, 17.11.2026; sayı tablodaki satır sayısıdır]
+Yukarıdaki Emtia sayfasının listesinde **82 emtia** bulunur; liste aşağıda iki tabloya ayrılır. İlk tablo, kaynağı bu belgenin [Lisans ve atıflar](#lisans-ve-atıflar) bölümünde gösterilen **29 emtiayı** içerir: enerji 7, metaller 5, tarım 5, kimya ve gübre 7, diğer hammadde 5; bu tabloda her emtianın Türkçe ve İngilizce adı, grubu ve kaynağı yazar. İkinci tablo ([Ayrıca izlenen emtialar](#ayrıca-izlenen-emtialar)) geri kalan **53 emtiayı** içerir: enerji 13, metaller 16, tarım 14, kimya ve gübre 7, diğer hammadde 3. Grup editöryel bir sınıflandırmadır, hesaba katılmaz. [Kaynak: ürünün emtia listesi, 17.11.2026; sayılar iki tablodaki satır sayılarıdır, 29 + 53 = 82]
 
 | Emtia (Türkçe) | Commodity (İngilizce) | Grup | Kaynak |
 |---|---|---|---|
@@ -168,6 +168,66 @@ Yukarıdaki Emtia sayfasının listesinden çıkarılan bu liste, kaynağı bu b
 | Yün (Fine) | Wool (fine) | Diğer hammadde | FRED, Federal Reserve Bank of St. Louis (IMF serileri) |
 
 Kaynak sütunu, [Lisans ve atıflar](#lisans-ve-atıflar) bölümündeki atıf adlarıyla aynıdır. [Kaynak: ürünün emtia listesi, 17.11.2026]
+
+### Ayrıca izlenen emtialar
+
+Bu emtiaların fiyat verisinin lisansı inceleniyor; bu depoda fiyatları gösterilmez.
+
+| Emtia (Türkçe) | Commodity (İngilizce) | Grup |
+|---|---|---|
+| Benzin · New York Limanı | Gasoline · New York Harbor | Enerji |
+| Brent ham petrol · Küresel (Brent) | Brent crude oil · Global (Brent) | Enerji |
+| Doğalgaz · ABD (Henry Hub) | Natural gas · U.S. (Henry Hub) | Enerji |
+| Doğalgaz · Avrupa (TTF) | Natural gas · Europe (TTF) | Enerji |
+| Elektrik (Türkiye PTF) | Electricity (Türkiye day-ahead price / PTF) | Enerji |
+| Ham petrol · Çin | Crude oil · China | Enerji |
+| Ham petrol · Orta Doğu (Dubai) | Crude oil · Middle East (Dubai) | Enerji |
+| Kok · Çin | Coke · China | Enerji |
+| Kok kömürü · Çin | Coking coal · China | Enerji |
+| Kömür · Güney Afrika (Richards Bay) | Coal · South Africa (Richards Bay) | Enerji |
+| LNG · Japonya (ithalat / CIF) | LNG · Japan (import / CIF) | Enerji |
+| Motorin · New York Limanı | Diesel · New York Harbor | Enerji |
+| WTI ham petrol · ABD (WTI) | WTI crude oil · U.S. (WTI) | Enerji |
+| Altın · Uluslararası | Gold · International | Metaller |
+| Alümina · Çin | Alumina · China | Metaller |
+| Alüminyum · Çin | Aluminium · China | Metaller |
+| Alüminyum · Uluslararası | Aluminium · International | Metaller |
+| Bakır · ABD | Copper · U.S. | Metaller |
+| Bakır · Çin | Copper · China | Metaller |
+| Çinko · Çin | Zinc · China | Metaller |
+| Demir cevheri · Çin | Iron ore · China | Metaller |
+| Demir cevheri · Uluslararası | Iron ore · International | Metaller |
+| Ferrosilikon · Çin | Ferrosilicon · China | Metaller |
+| Gümüş · Uluslararası | Silver · International | Metaller |
+| Nikel · Çin | Nickel · China | Metaller |
+| Paladyum · Çin | Palladium · China | Metaller |
+| Platin · Uluslararası | Platinum · International | Metaller |
+| Silikomangan · Çin | Silicomanganese · China | Metaller |
+| Soğuk haddelenmiş çelik (ABD ÜFE) | Cold-rolled steel (U.S. PPI) | Metaller |
+| Ayçiçek yağı · AB (FOB Rotterdam) | Sunflower oil · EU (FOB Rotterdam) | Tarım |
+| Buğday · ABD (HRW) | Wheat · U.S. (HRW) | Tarım |
+| Buğday · ABD (SRW) | Wheat · U.S. (SRW) | Tarım |
+| Buğday · Türkiye | Wheat · Türkiye | Tarım |
+| Kahve (Arabica) · Uluslararası | Coffee (Arabica) · International | Tarım |
+| Kakao | Cocoa | Tarım |
+| Karkas et (dana) | Beef carcass | Tarım |
+| Mısır · ABD | Corn · U.S. | Tarım |
+| Mısır nişastası · Çin | Corn starch · China | Tarım |
+| Soya · ABD | Soybeans · U.S. | Tarım |
+| Soya küspesi · Çin | Soybean meal · China | Tarım |
+| Soya küspesi · Uluslararası | Soybean meal · International | Tarım |
+| Soya yağı · Çin | Soybean oil · China | Tarım |
+| Şeker | Sugar | Tarım |
+| MEG · Çin | Ethylene glycol (MEG) · China | Kimya ve gübre |
+| Metanol · Çin | Methanol · China | Kimya ve gübre |
+| Paraksilen · Çin | Paraxylene · China | Kimya ve gübre |
+| Polietilen · Çin | Polyethylene · China | Kimya ve gübre |
+| Polipropilen · Çin | Polypropylene · China | Kimya ve gübre |
+| PTA · Çin | PTA (purified terephthalic acid) · China | Kimya ve gübre |
+| Soda külü · Çin | Soda ash · China | Kimya ve gübre |
+| Kereste · Malezya (seraya / meranti) | Sawnwood · Malaysia (seraya / meranti) | Diğer hammadde |
+| Kontrplak · Tokyo spot | Plywood · Tokyo spot | Diğer hammadde |
+| Pamuk · Uluslararası | Cotton · International | Diğer hammadde |
 
 ### Emtia Ağı
 
