@@ -6,8 +6,6 @@
 
 [Türkçe](README.md)
 
-Website: [vantagecastle.com](https://vantagecastle.com)
-
 **How do commodity prices show up in a company's margin? On one screen, with the source next to every number.**
 
 Vantage Castle puts the input commodity cost and the output price of Borsa Istanbul companies on the same axis and places, beside them, the gross margin the company has actually reported. Did a company's raw-material basket get more expensive, and did the price of its product cover it: both are visible side by side. The calculation on the Projection page is made by the **Commodity Margin Engine**: it looks at the company's financials, its commodities and its input–output, calculates before the financial statement is published where the gross margin could land in the next statement, and records it; when the realised value arrives, it is added beside the record. This is a calculation; it does not report a share price or an investment direction and it is not investment advice. How the engine works is described in the [Commodity Margin Engine](#commodity-margin-engine) section.

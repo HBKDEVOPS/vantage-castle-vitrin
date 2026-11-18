@@ -6,8 +6,6 @@
 
 [English](README.en.md)
 
-Web sitesi: [vantagecastle.com](https://vantagecastle.com)
-
 **Emtia fiyatları bir şirketin marjına nasıl yansır? Tek ekranda, her sayının kaynağıyla.**
 
 Vantage Castle, BIST şirketlerinin girdi emtia maliyetini çıktı fiyatıyla aynı eksene koyar ve yanına şirketin açıkladığı gerçekleşen brüt marjı yerleştirir. Bir şirketin hammadde sepeti pahalandı mı, sattığı ürünün fiyatı bunu karşıladı mı: ikisi yan yana görünür. Projeksiyon sayfasındaki hesabı **Emtia Marj Motoru** yapar: şirketin finansallarına, emtialarına ve girdi–çıktısına bakar, brüt marjın bir sonraki bilançoda nereye gelebileceğini bilanço açıklanmadan önce hesaplar ve kayda geçirir; gerçekleşen değer gelince yanına eklenir. Bu bir hesaptır; hisse fiyatı ya da yatırım yönü bildirmez ve yatırım tavsiyesi değildir. Motorun nasıl çalıştığı [Emtia Marj Motoru](#emtia-marj-motoru) bölümünde anlatılır.
